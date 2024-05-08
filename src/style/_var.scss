@@ -1,0 +1,20 @@
+$white: #fff;
+$gold: #ffd347;
+
+@mixin CardLayout {
+  padding: 15px;
+  box-shadow: 0px 0px 20px #0000008f;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #2e3f33;
+  background: radial-gradient(at right top, rgba(65,88,72, 1) 0%, rgba(55,73,59,1) 18%, rgba(36,54,40,1) 38%, rgba(22,36,27,1) 62%, rgba(9,13,10,1) 100%);
+  backdrop-filter: blur(40px);
+}
+
+@mixin CardValue {
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #7777776c;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px #0000008f;
+}
