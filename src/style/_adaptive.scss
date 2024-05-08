@@ -185,9 +185,6 @@ main {
       grid-column-start: 1;
       grid-column-end: 3;
     }
-    .weather__inner {
-      // grid-template-rows: repeat(6, auto);
-    }
   }
 
   @media (max-width: 440px) {
