@@ -13,6 +13,7 @@
     "axios": "^1.6.8",
     "pinia": "^2.1.7",
     "primevue": "^3.49.1",
+    "sharp": "^0.32.4",
     "svgo": "^3.2.0",
     "unplugin-auto-import": "^0.17.5",
     "vee-validate": "^4.12.5",
