@@ -11,7 +11,7 @@ import { PrimeVueResolver } from "unplugin-vue-components/resolvers";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/weather/",
-  envPrefix: "VITE_",
+  envPrefix: "VITE_",   
   define: {
     'process.env.VITE_BASE_URL_WEATHER':
     JSON.stringify('https://api.openweathermap.org/data/2.5/weather'),
