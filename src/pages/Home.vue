@@ -79,7 +79,6 @@ const getWeatherInfo = async () => {
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff07;
-    backdrop-filter: blur(10px);
   }
 
   &__inner {
@@ -89,7 +88,6 @@ const getWeatherInfo = async () => {
     width: 100%;
     height: minmax(550px, 600px);
     border-radius: 20px;
-    backdrop-filter: blur(20px);
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
